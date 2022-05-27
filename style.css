@@ -1,0 +1,77 @@
+body{   
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://photo2.tinhte.vn/data/attachment-files/2021/05/5486744_CAIS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    cursor: pointer;
+}
+.border__b--right{
+    border-right:3px solid black;
+}
+.border__b--bottom{
+    border-bottom:3px solid black;
+}
+table, th, td {
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width:550px;
+    background-color: white;
+    
+}
+table{
+    height:550px;
+
+    border-collapse: collapse;
+}
+#test1{
+    color:rgb(14, 130, 207);
+    text-transform: uppercase;
+    text-align:center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+tr{
+    padding:10px;
+}
+th{
+    padding:12px;
+}
+.already_have{
+    background-color:skyblue;
+}
+.lost_number{
+    background-color:red;
+}
+.header{
+    text-align:center;
+    display: block;
+    /* width: 400px; */
+    margin: 0 auto;
+    margin-bottom: 13px;
+}
+button{
+    padding:12px;
+    background-color:rgb(18, 112, 252);
+    font-size:1.3rem;
+    text-align:center;
+}
+button#button_start{
+    background-color:white;
+    margin-right:20px;
+}
+.diff{
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diff_child{
+    width:400px;
+}
+input[type=radio] {
+    border: 0px;
+    width:12%;
+    height: 2em;
+}
